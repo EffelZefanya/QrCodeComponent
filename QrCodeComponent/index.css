@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(124, 176, 201);
+    color:rgb(124, 176, 201);
+    text-align: center;
+}
+
+.tst{
+    background-color: red;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
