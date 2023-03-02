@@ -1,11 +1,44 @@
 body{
     background-color: rgb(124, 176, 201);
-    color:rgb(124, 176, 201);
-    text-align: center;
+    color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.tst{
-    background-color: red;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.center-box{
+    background-color: white;
+    color: black;
+    min-height: 50vh;
+    min-width: 40vh;
+    max-width: 40vh;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.center-box img{
+    max-width: 100%;
+    justify-content: center;
+    border-radius: 20px;
+    border: 10px white;
+}
+
+.card-title{
+    font-weight:  bolder;
+    font-size: 16px;
+}
+
+.card-text{
+    font-size: 10px;
+    color: grey
+}
+
+@media screen and (max-width: 320px) {
+    .center-box{
+        max-width: 25vh;
+        min-width: 10vh;
+    }
 }
