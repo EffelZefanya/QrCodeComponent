@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
 body{
-    background-color: rgb(124, 176, 201);
-    color:whitesmoke;
+    background-color: #D5E1EF;
+    color:#3685FF;
     display: flex;
     justify-content: center;
     min-height: 100vh;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
 }
 
 .center-box{
@@ -12,36 +15,39 @@ body{
     box-shadow: 4px 4px rgb(235, 227, 227);
     color: black;
     min-height: 50vh;
-    min-width: 40vh;
-    max-width: 40vh;
+    width: 40vh;
     padding: 15px;
     text-align: center;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .center-box img{
-    max-width: 100%;
     justify-content: center;
-    border-radius: 20px;
+    border-radius: 10px;
     border: 10px white;
     box-shadow: 4px 4px #1b67d8;
 }
 
 .card-title{
-    font-weight:  bolder;
-    font-size: 16px;
+    font-weight: 700;
 }
 
 .card-text{
-    font-size: 10px;
-    color: grey
+    color: grey;
+    font-size: small;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     .center-box{
-        max-width: 25vh;
-        min-width: 10vh;
+        max-width: 85vh;
+    }
+
+    main{
+        font-size: large;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
     }
 }
 
